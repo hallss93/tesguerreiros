@@ -96,18 +96,30 @@ section.lista .quadro .item .texto {
 section.lista .quadro .item .texto p {
   line-height: 1;
   margin: 0;
-  font-weight: 400;
   font-family: var(--fonte);
 }
 
-section.lista .quadro .item .texto p.nome {
+section.lista .quadro .item .texto p.titulo {
   font-size: 1.1rem;
   color: var(--cor-secundaria);
+  font-weight: 400;
 }
 
-section.lista .quadro .item .texto p.status {
+section.lista .quadro .item .texto p.status.pendente {
   font-size: 0.9rem;
   color: var(--cor-cinza);
+  font-weight: 400;
   padding-top: 3px;
+}
+
+section.lista .quadro .item .texto p.status.completo {
+  font-size: 0.9rem;
+  color: var(--cor-primaria);
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+section.lista .quadro .item .texto p.id {
+  color: var(--cor-branco);
 }
 
